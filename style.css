@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Urbanist:wght@300;400;500;600&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --font-heading: 'Syne', 'Trebuchet MS', sans-serif;
   --font-body: 'Urbanist', 'Gill Sans', sans-serif;
@@ -38,8 +42,19 @@
   margin-right: 0.7rem;
 }
 
+.navbar li a {
+  transition: text-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  text-shadow: 0 0 8px #fff, 0 0 16px #fff;
+}
+
 .navbar span {
     margin-left: 0.7rem;
+    font-family: var(--font-heading);
+    font-weight: 600;
 }
 
 .header {
@@ -81,3 +96,4 @@ h3 {
   min-width: 20ch;
   max-width: 60ch;
 }
+
