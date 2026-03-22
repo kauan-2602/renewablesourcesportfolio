@@ -6,3 +6,10 @@ function goTo(index) {
   current = (index + slides.length) % slides.length;
   slides[current].classList.add('active');
 }
+
+const lang = navigator.language || navigator.userLanguage;
+if (lang.startsWith('pt')) {
+  window.location.replace('index-pt.html');
+} else {
+  window.location.replace('index.html')
+}

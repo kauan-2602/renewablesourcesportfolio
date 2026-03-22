@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="description" content="Portfólio de engenharia frontend por Kauan, explorando energias renováveis através do código.">
+  <title>Meu Portfólio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class = 'navbar'>
+    <span>Por Kauan</span>
+    <ul>
+      <li><a href = 'https://glen-thought-285.notion.site/Bem-Vindo-a-Welcome-070c3776da10827787c281282c737813' target = 'blank'>Sobre Mim</a></li>
+      <li><a href = 'https://solo.to/kauan.coder' target = 'blank'>Contato</a></li>
+    </ul>
+  </nav>
+  <div class = 'header'>
+    <h1>Meu Portfólio</h1>
+    <h2>Aproveite esta demonstração de engenharia frontend através das energias renováveis.</h2>
+    <h3>As energias renováveis estão reformulando a rede elétrica global. De fazendas solares a turbinas eólicas, a energia limpa está se tornando o novo padrão. O futuro funciona com soluções sustentáveis.</h3>
+  </div>
+  <div class = 's1'>
+    <div class = 'txt1'>
+      <h1 class = 'blue'>Limpa </h1><h1 class = 'and'>e </h1><h1 class = 'green'>Segura</h1>
+      <h3>A energia renovável não é mais uma promessa distante — é uma mudança ativa que está reformulando como o mundo gera e consome energia. Do vento nos campos abertos à luz solar nos telhados, as fontes limpas estão se mostrando viáveis e necessárias.</h3>
+    </div>
+    <div class = 'img1'>
+      <img alt="Campo gramado com painéis solares e turbinas eólicas sob um céu limpo" src = 'https://www.brookgreensupply.com/hubfs/Web%20Build/hero-renewable-energy.png'>
+    </div>
+  </div>
+  <div class="carousel">
+    <button class="arrow left" onclick="goTo(current - 1)">&#8592;</button>
+    <div class="slide active">
+      <div class="slide-text">
+        <h1 class = 'yellow'>Energia Solar</h1>
+        <h3>A energia solar capta a radiação do sol e a converte em eletricidade através de painéis fotovoltaicos ou sistemas de calor concentrado. É uma das fontes de energia de crescimento mais rápido do planeta, com custos caindo drasticamente na última década.</h3>
+      </div>
+      <button class="arrow right" onclick="goTo(current + 1)">&#8594;</button>
+      <div class="slide-image">
+        <img alt="Painéis solares num pôr do sol dourado" src = 'https://www.prysmian.com/sites/www.prysmian.com/files/2024-01/header-solar-energy-photovoltaics-1150x650.png'>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-text">
+        <h1 class = 'blue'>Energia Eólica</h1>
+        <h3>A energia eólica aproveita a força cinética do ar em movimento através de grandes turbinas, convertendo-a em eletricidade limpa. Parques eólicos offshore e onshore são agora grandes contribuintes para as redes elétricas nacionais em todo o mundo.</h3>
+      </div>
+      <button class="arrow right" onclick="goTo(current + 1)">&#8594;</button>
+      <div class="slide-image">
+        <img alt="Turbinas eólicas num campo gramado" src = 'https://www.prysmian.com/sites/www.prysmian.com/files/2024-01/thumb-wind-energy-500x500.png'>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-text">
+        <h1 class = 'green'>Energia de Biomassa</h1>
+        <h3>A energia de biomassa é derivada de materiais orgânicos como resíduos agrícolas, madeira e culturas. Por meio de processos de combustão ou conversão, esses materiais liberam energia que pode ser usada para eletricidade, calor e combustível.</h3>
+      </div>
+      <button class="arrow right" onclick="goTo(current + 1)">&#8594;</button>
+      <div class="slide-image">
+        <img alt="Contêineres de biomassa numa plantação de cana-de-açúcar" src = 'https://www.energy.gov/sites/default/files/styles/full_article_width/public/Biomass%20Resources.png?itok=7msmb1_6'>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-text">
+        <h1 class = 'blue'>Energia Hidrelétrica</h1>
+        <h3>A energia hidrelétrica gera eletricidade captando a energia da água em movimento ou em queda. É uma das fontes renováveis mais antigas e confiáveis, responsável pela maior parcela da produção global de eletricidade renovável.</h3>
+      </div>
+      <button class="arrow right" onclick="goTo(current + 1)">&#8594;</button>
+      <div class="slide-image">
+        <img alt="Água fluindo pelos geradores hidrelétricos" src = 'https://conservativeenergynetwork.org/wp-content/uploads/2024/02/8.jpg'>
+      </div>
+    </div>
+  </div>
+  <div class = 'bm'></div>
+  <script src="script.js"></script>
+</body>
+</html>
